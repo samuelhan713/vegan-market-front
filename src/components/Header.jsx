@@ -92,20 +92,6 @@ const Header = ({ cartCount, isLoggedIn, setIsLoggedIn }) => {
             </>
           )}
 
-          {role === "USER" && (
-            <Button
-              component={Link}
-              to="/mypage"
-              sx={{
-                color: "white",
-                fontWeight: "bold",
-                "&:hover": { color: "#bbf7d0" },
-              }}
-            >
-              마이페이지
-            </Button>
-          )}
-
           {isLoggedIn ? (
             <Button
               onClick={handleLogout}

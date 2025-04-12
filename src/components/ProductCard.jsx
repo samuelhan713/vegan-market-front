@@ -39,7 +39,7 @@ export default function ProductCard({
           display: "flex",
           flexDirection: "column",
           width: "350px",
-          minHeight: "200px",
+          minHeight: "150px",
           height: "100%",
           boxShadow: "0 2px 6px rgba(0, 0, 0, 0.05)",
           transition: "box-shadow 0.3s ease",
