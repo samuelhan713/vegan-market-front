@@ -34,7 +34,7 @@ const LoginPage = ({ setIsLoggedIn }) => {
         localStorage.setItem("accessToken", token);
         localStorage.setItem("refreshToken", refreshToken);
         localStorage.setItem("role", role);
-        alert("로그인에 성공했어요!");
+        alert("Logged in successfully!");
         setIsLoggedIn(true);
         navigate("/items");
       } else {
